@@ -219,3 +219,76 @@
 // Testing github
 
 // second testing
+
+//----------------------FUNCTION TO FIND SQUARE OF A NUMBER --------------------------
+
+// int Square(int number, int square){
+
+//     square = number*number;
+//     return square;
+// }
+
+// int main(){
+      
+//       int number;
+//       cout << "Enter a number: ";
+//       cin>> number;
+
+//       int square;
+
+//       cout << "Square of a number is: " << Square(number,square);
+
+//       return 0;
+// }
+
+
+//----------------------------- Function that checks if a given number is even or odd -------------------------
+
+// void OddorEven(int number){
+//       if (number % 2 == 0)
+//       {
+//         cout << number << " is even number";
+//       }
+//       else{
+//         cout << number << " is odd number";
+
+
+//       }
+      
+// }
+
+// int main(){
+
+//     int number;
+//     cout << "Enter a number: ";
+//     cin >> number;
+    
+//     OddorEven(number);
+    
+// }
+
+
+//------------------------- Function to find the maximum of two numbers --------------------------------------
+
+// void Maximum(int num1,int num2){
+
+//     if (num1<num2)
+//     {
+//         cout << num2 << " is largest number" ;
+//     }
+    
+//     else{
+//         cout << num1 << " is largest number" ;
+//     }
+// }
+
+// int main(){
+
+//     int num1,num2;
+//     cout << "Enter first number: ";
+//     cin >> num1;
+//     cout << "Enter second number: ";
+//     cin >> num2;
+
+//     Maximum(num1,num2);
+// }
