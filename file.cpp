@@ -292,3 +292,51 @@
 
 //     Maximum(num1,num2);
 // }
+
+
+//--------------------------------  Function to calculate the factorial of a number -----------------------------------
+
+// int Factorial(int number,int fact,int i){
+//     fact = 1;
+//     for ( i = 1; i <= number; i++)
+//     {
+//         fact *= i;
+//     }
+//     return fact;
+// }
+
+
+// int main(){
+
+//     int number;
+//     cout << "Input a Positive integer: ";
+//     cin>>number;
+//     int fact,i;
+
+//     cout<<"Factorial of a number is: "<<Factorial(number,fact,i);
+// }
+
+//---------------------------------  Function that returns the sum of all elements in an array ---------------------------------------------
+
+// int Sum(int arr[], int n) {
+//     int sum = 0; 
+//     for (int i = 0; i < n; i++) {
+//         sum += arr[i]; 
+//     }
+//     return sum;
+// }
+
+// int main(){
+//       int n,sum;
+//      cout<< "Input size of array: ";
+//  cin>> n;
+
+//  int arr[n];
+//  for (int i = 0; i < n; i++)
+//  {
+//      cout<< "Input value for array: ";
+//   cin>> arr[i];
+
+//   }
+//   cout << " Sum is: "<<Sum(arr,n);
+//  }
