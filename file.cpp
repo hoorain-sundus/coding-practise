@@ -493,3 +493,206 @@
 //         cout<< j <<" ";
 //     }
 //     cout<< "\n";
+
+//------------------------- ARRAY -----------------------------
+
+
+
+//     int marks[7] = {85, 95, 68, 70, 64, 50, 60};
+
+//     float obtainedMarks = 0;
+//     for (int i = 0; i < 7; i++)
+//     {
+//         obtainedMarks = obtainedMarks + marks[i];
+//     }
+
+//     float totalMarks = 550;
+
+//     float percentage = (obtainedMarks / totalMarks) * 100;
+
+//     cout << "Total Marks : " << totalMarks << "\n";
+//     cout << "Obtained Marks : " << obtainedMarks << "\n";
+//     cout << "Obtained Percentage : " << percentage;
+
+//     ---------------------------------------------------------------------------
+
+//         QUESTION NO 1:Write a C++ program to store the numbers from 1 to 10 in an array and print their squares using a for loop.
+
+//     int number[5] ;
+//     for (int i = 0; i < 5; i++)
+//     {
+//         cout<< "Enter number "<<i+1<<".";
+//         cin >> number[i];
+//     }
+
+
+//     for (int i = 0; i < 5; i++)
+//     {
+//         int square = number[i] * number[i];
+//         cout << square << "\n";
+//     }
+
+//        ---------------------------------------------------------------------------
+
+//            QUESTION NO 2:. Write a C++ program to find the sum of all elements in an array of 10 integers and print the result using a for loop
+
+//         int number[10] = {10, 25, 3, 4, 5, 6, 7, 8, 9, 10};
+//         int sum = 0;
+//         for (int i = 0; i < 10; i++)
+//         {
+//             sum +=  number[i];
+//         }
+//         cout << "Result = " << sum;
+
+//         ---------------------------------------------------------------------------
+
+//            QUESTION NO 3:Write a C++ program to store the names of 5 students in an array and print them in reverse order using a for loop.
+
+
+
+//         string name[5] = {"Hania", "Ayesha", "Wania", "Eman", "Zainab"};
+//         for (int i = 4; i >= 0; i--)
+//         {
+//             cout << name[i] << "\n";
+//         }
+
+//         ---------------------------------------------------------------------------
+
+//         QUESTION NO 4:Write a C++ program to find the average of all elements in an array of 10 integers and print the result using a for loop.
+
+
+//          double number[10] = {10,17,21,43,50,60,70,80,98,87};
+//          double sum = 0;
+//          for (int i = 0; i < 10; i++)
+//          {
+//              sum = sum + number[i];
+//          }
+//          double average = sum / 10;
+
+//          cout << "Sum of all numbers : " <<sum <<"\n";
+//          cout << "Averae of all numbers : " <<average;
+
+//         ---------------------------------------------------------------------------
+
+//         QUESTION NO 5:. Write a C++ program to store the marks of 10 students in an array and print the marks of students who scored above 50 using a for loop.
+
+
+//          string studentname[10]= {"Anshara","Bushra","Chaman","Daniyal","Eman","Farzeen","Ghousia","Hunain","Irfan","Junaid"};
+//          int marks[10]= {93,84,38,63,54,40,68,32,63,72};
+//          for (int i = 0; i < 10; i++)
+//          {
+
+//             if (marks[i] > 50)
+//             {
+//                 cout << studentname[i] << " = "<< marks[i]<< "\n";
+//             }
+
+//     }
+
+//         ---------------------------------------------------------------------------
+
+//       QUESTION NO 6: Write a C++ program to find the maximum and minimum elements in an array of 10 integers and print the result using a for loop.
+
+
+//      int number[10] = {32,4,56,78,53,23,75,54,23,19};
+//     int min = number[0];
+//     int max = number[0];
+//     for (int i = 0; i < 10; i++)
+//     {
+//        if (max < number[i])
+//        {
+//          max = number[i];
+//        }
+//        if (min > number[i]) 
+//        {
+//          min = number[i];
+//        }
+       
+//     }
+//     cout<< max <<"\n\a";
+//     cout<< min;
+
+//           ---------------------------------------------------------------------------
+
+//            QUESTION NO 7:Write a C++ program to store the numbers from 1 to 10 in an array and print their cubes using a for loop.
+
+
+
+//         int number[5] ;
+//     for (int i = 0; i < 5; i++)
+//     {
+//         cout<< "Enter number "<<i+1<<".";
+//         cin >> number[i];
+//     }
+
+
+//     for (int i = 0; i < 5; i++)
+//     {
+//         int cube = number[i] * number[i] * number[i];
+//         cout << cube << "\n";
+//     }
+
+//         ---------------------------------------------------------------------------
+
+//           QUESTION NO 8:. Write a C++ program to find the sum of all even elements in an array of 10 integers and print the result using a for loop.
+
+
+//       int number[10] = {89,76,32,38,55,80,54,23,51,10};
+//       int sum = 0;
+//       for (int i = 0; i < 10; i++)
+//       {
+
+//        if (number[i] % 2 == 0)
+//        {
+//          sum = sum + number[i];
+//          cout<< "Print all even numbers : " << number[i]<< "\n";
+//        }
+//       }
+
+//          cout << "Sum of all even numbers is :"<< sum << "\n";
+
+
+//             ---------------------------------------------------------------------------
+
+//           QUESTION NO 9: Write a C++ program to store the names of 5 students in an array and print the length of each name using a for loop.
+
+
+//       string name[10] = {"Areeba","Bisma","Daniya","Erum","Fazeela","Abeera","Fatima","Yusra","Shazia","sumaiya"};
+//       for (int i = 0; i < 10; i++)
+//       {
+//         cout << name[i]<<" = "<< name[i].length()<< "\n";
+//       }
+    
+
+//        ---------------------------------------------------------------------------
+
+
+//         QUESTION NO 10: Write a C++ program to find the product of all elements in an array of 10 integers and print the result using a for loop.
+
+    // int number[10] = {1,2,3,4,5,6,7,8,9,10};
+    // int product = 1;
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     product *= number[i];
+    // }
+    // cout <<"Product of all number is : "<< product << "\n";
+
+    
+
+    //-------------------------------------------------------------------------------------
+
+    //      QUESTION NO 11 : TO FIND SQUARE ROOT OF A NUMBER.
+
+    // float number[10] , sqroot;
+    // for (int i = 0; i < 10; i++)
+    // {
+        
+    // cout<<"Enter a number : " ;
+    // cin>> number[i];
+    // }
+    // for (int i = 0; i < 10; i++)
+    // {
+    // sqroot = sqrt(number[i]);
+    // cout<< "Square root of a number is : "<< sqroot<<"\n";
+    // }
+
