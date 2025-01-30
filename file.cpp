@@ -696,3 +696,83 @@
     // cout<< "Square root of a number is : "<< sqroot<<"\n";
     // }
 
+
+//--------------------------------- IF/ELSE -------------------------------
+
+
+//QUESTION NO : 01  TO FIND LARGEST NUMBER
+
+//     cout<<"Enter a number: ";
+//     int num1;
+//     cin>>num1;
+//     cout<<"Enter another number: ";
+//     int num2;
+//     cin>>num2;
+//     if (num1 > num2)
+//     {
+//         cout<<"Largest number is: "<<num1;
+//     }
+//     else{
+//         cout<< "Largest number is: "<<num2;
+//     }
+    
+
+//      //QUESTION NO : 02  
+
+//      cout << "Enter your marks: ";
+//     int Number;
+//     cin >> Number;
+//     if (Number >= 50)
+//     {
+//         cout << "You are Pass. ";
+//     }
+//     else
+//     {
+//         cout << "You are Fail. ";
+//     }
+
+
+//     //QUESTION NO : 03   FIND POSITIVE NUMBER
+
+// cout << "Input a Number: ";
+//     int Number;
+//     cin >> Number;
+//     if (Number >0 )
+//     {
+//         cout << "This is a positive number ";
+//     }
+//     else if (Number <0) {
+//         cout<<"This is a negative number ";
+//     }
+//     else{
+//         cout<<"Value is 0 ";
+//     }
+
+//     //QUESTION NO : 04   
+
+
+//      cout << "Enter Your Marks: ";
+//   int marks;
+//   cin >> marks;
+
+//   if (marks >= 90 && marks <= 100)
+//   {
+//     cout << "Grade A ";
+//   }
+//   else if (marks >= 80 && marks <= 89)
+//   {
+//     cout << "Grade B ";
+//   }
+//   else if (marks >= 70 && marks <= 79)
+//   {
+//     cout << "Grade C ";
+//   }
+//   else if (marks >= 60 && marks <= 69)
+//   {
+//     cout << "Grade D ";
+//   }
+//   else
+//   {
+//     cout << "You are fail";
+//   }
+
