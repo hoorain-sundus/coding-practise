@@ -341,6 +341,26 @@
 //   cout << " Sum is: "<<Sum(arr,n);
 //  }
 
+
+//------------------------------  function to reverse a given integer number (e.g., 123 becomes 321) --------------------------
+
+void Reverse(int num){
+      string   num2 = to_string(num);
+    for (int i = num2.length()-1; i >= 0; i--)
+    {
+        cout << num2[i];
+    }
+    
+}
+
+int main(){
+
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+    Reverse(num);
+}
+
 // ------------------------------ LOOP ------------------------------
 
 
