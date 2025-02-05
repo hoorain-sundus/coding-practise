@@ -361,6 +361,30 @@ int main(){
     Reverse(num);
 }
 
+
+//--------------------------------  Function to calculate the factorial of a number -----------------------------------
+
+// int Factorial(int number,int fact,int i){
+//     fact = 1;
+//     for ( i = 1; i <= number; i++)
+//     {
+//         fact *= i;
+//     }
+//     return fact;
+// }
+
+
+// int main(){
+
+//     int number;
+//     cout << "Input a Positive integer: ";
+//     cin>>number;
+//     int fact,i;
+
+//     cout<<"Factorial of a number is: "<<Factorial(number,fact,i);
+// }
+
+
 // ------------------------------ LOOP ------------------------------
 
 
