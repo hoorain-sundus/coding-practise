@@ -6,7 +6,7 @@
 // //----------------- LINEAR SEARCH ------------------------
 
 
-// // void linearSearch(int myNumbers[10], int value) {
+//  void linearSearch(int myNumbers[10], int value) {
 
 // // bool flag = false;
 // //  for (int i = 0; i < 10; i++) { 
@@ -29,11 +29,11 @@
 // //   int val =60;
   
  
-//  // linearSearch(myNumbers, val);
-//   //return 0;
+// //  linearSearch(myNumbers, val);
+// //   return 0;
 
 
-//  //}
+// //  }
 
 
 
@@ -361,6 +361,33 @@ int main(){
     Reverse(num);
 }
 
+//------------------------------ Function to check if a number is prime or not --------------------------------
+
+// int IsPrime(int number){
+//     if (number==2)
+//     {
+//         return true;
+//     }
+
+//     for (int i = 2; i < number; i++ ){
+//         if( number % i ==0){
+//             return false;
+//         }
+        
+//     } 
+//     return true;
+
+    
+// }
+
+// int main(){
+    
+//     int number ;
+//     cout << "Enter a number: ";
+//     cin>> number;
+
+//    cout << IsPrime(number);
+// }
 
 //--------------------------------  Function to calculate the factorial of a number -----------------------------------
 
@@ -422,7 +449,7 @@ int main(){
     //     }
     //     cout << "\n";
     // }
-    
+
 
     //TO SOLVE:
 //     *
