@@ -389,6 +389,41 @@ int main(){
 //    cout << IsPrime(number);
 // }
 
+
+//------------------------------- Character Count --------------------------------------
+
+
+// int characterCount(string name, char letter,int count = 0 ){
+       
+    
+
+//     for (int i = 0; i < name.length(); i++)
+//     {
+//         if (letter == name[i])
+//         {
+//             count++;
+//         }
+        
+//     }
+//     return count;
+// }
+
+// int main(){
+//     string name;
+//     cout << "Enter a name: ";
+//     cin >> name;
+
+//     char letter;
+//     cout << "Enter a character: ";
+//     cin >> letter;
+
+//     cout << characterCount(name,letter);
+    
+
+// }
+
+
+
 //--------------------------------  Function to calculate the factorial of a number -----------------------------------
 
 // int Factorial(int number,int fact,int i){
