@@ -423,6 +423,29 @@ int main(){
 // }
 
 
+//----------------------------- Character Count ----------------------------------
+
+// int characterCount(string name, char letter){
+//     int count =0;
+//     for(int i =0; i < name.length() ; i++){
+//         if(letter ==name[i]){
+//             count++;
+//         }
+//     }
+//     return count;
+    
+// }
+
+// int main() {
+
+//   string name = "banana";
+//   char letter = 'a';
+  
+//   cout << characterCount(name,letter);
+    
+//    return 0;
+// }
+
 
 //--------------------------------  Function to calculate the factorial of a number -----------------------------------
 
