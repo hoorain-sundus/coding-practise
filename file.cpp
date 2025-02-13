@@ -344,22 +344,22 @@
 
 //------------------------------  function to reverse a given integer number (e.g., 123 becomes 321) --------------------------
 
-void Reverse(int num){
-      string   num2 = to_string(num);
-    for (int i = num2.length()-1; i >= 0; i--)
-    {
-        cout << num2[i];
-    }
+// void Reverse(int num){
+//       string   num2 = to_string(num);
+//     for (int i = num2.length()-1; i >= 0; i--)
+//     {
+//         cout << num2[i];
+//     }
     
-}
+// }
 
-int main(){
+// int main(){
 
-    int num;
-    cout << "Enter a number: ";
-    cin >> num;
-    Reverse(num);
-}
+//     int num;
+//     cout << "Enter a number: ";
+//     cin >> num;
+//     Reverse(num);
+// }
 
 //------------------------------ Function to check if a number is prime or not --------------------------------
 
@@ -959,4 +959,40 @@ int main(){
 //   {
 //     cout << "You are fail";
 //   }
+
+
+
+void Sorting(int arr[], int size)
+{
+    for (int i = 0; i < size - 1; i++)
+    {
+        for (int j = 0; j < size - i - 1; j++)
+        {
+            if (arr[j] > arr[j + 1])
+            {
+                arr[j] = arr[j] + arr[j + 1];
+                arr[j + 1] = arr[j] - arr[j + 1];
+                arr[j] = arr[j] - arr[j + 1];
+            }
+        }
+    }
+}
+
+int main()
+{
+
+    int arr[] = {3, 6, 90, 2, 0, 74};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    Sorting(arr, size);
+
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << "\n";
+
+    return 0;
+}
+
 
