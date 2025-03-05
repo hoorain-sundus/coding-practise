@@ -964,38 +964,38 @@
 //---------------------------- Bubble sorting ------------------------------------------
 
 
-void Sorting(int arr[], int size)
-{
-    for (int i = 0; i < size - 1; i++)
-    {
-        for (int j = 0; j < size - i - 1; j++)
-        {
-            if (arr[j] > arr[j + 1])
-            {
-                arr[j] = arr[j] + arr[j + 1];
-                arr[j + 1] = arr[j] - arr[j + 1];
-                arr[j] = arr[j] - arr[j + 1];
-            }
-        }
-    }
-}
+// void Sorting(int arr[], int size)
+// {
+//     for (int i = 0; i < size - 1; i++)
+//     {
+//         for (int j = 0; j < size - i - 1; j++)
+//         {
+//             if (arr[j] > arr[j + 1])
+//             {
+//                 arr[j] = arr[j] + arr[j + 1];
+//                 arr[j + 1] = arr[j] - arr[j + 1];
+//                 arr[j] = arr[j] - arr[j + 1];
+//             }
+//         }
+//     }
+// }
 
-int main()
-{
+// int main()
+// {
 
-    int arr[] = {3, 6, 90, 2, 0, 74};
-    int size = sizeof(arr) / sizeof(arr[0]);
+//     int arr[] = {3, 6, 90, 2, 0, 74};
+//     int size = sizeof(arr) / sizeof(arr[0]);
 
-    Sorting(arr, size);
+//     Sorting(arr, size);
 
-    for (int i = 0; i < size; i++)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << "\n";
+//     for (int i = 0; i < size; i++)
+//     {
+//         cout << arr[i] << " ";
+//     }
+//     cout << "\n";
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 
@@ -1125,4 +1125,15 @@ int main()
 //     cout << "\n";
 
 //     return 0;
+// }
+
+
+//------------------------------------- ACTIVITY NO : O1 -----------------------------------------
+//-----------------------------Program to print a text in a new line--------------------------------------------
+
+// int main(){
+
+//     cout << "======================================================\n";
+//     cout << "\t\t\3 Hello World \3";
+    
 // }
