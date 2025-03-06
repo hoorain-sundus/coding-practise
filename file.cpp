@@ -1137,3 +1137,48 @@
 //     cout << "\t\t\3 Hello World \3";
     
 // }
+
+
+// ----------------------------------- ACTUVITY NO : 02 ------------------------------------
+// -----------------------Program to calculate total , percentage and grade--------------------------------
+
+// int main (){
+
+//     int urdu,english,math;
+//     cout << "Enter Urdu marks: ";
+//     cin>>urdu;
+//     cout << "Enter English marks: ";
+//     cin>>english;
+//     cout << "Enter Math marks: ";
+//     cin>>math;
+
+//     float total;
+//     total = urdu  + english + math;
+//      cout << "Total : "<<total << "\n";
+
+//     float percentage;
+//     percentage = (total*100)/300;
+//     cout << "Percentage : "<<percentage << "%\n";
+    
+    
+//     if (percentage >= 90 && percentage <= 100)
+//     {
+//       cout << "Grade A ";
+//     }
+//     else if (percentage >= 80 && percentage <= 89)
+//     {
+//       cout << "Grade B ";
+//     }
+//     else if (percentage >= 70 && percentage <= 79)
+//     {
+//       cout << "Grade C ";
+//     }
+//     else if (percentage >= 60 && percentage <= 69)
+//     {
+//       cout << "Grade D ";
+//     }
+//     else
+//     {
+//       cout << "You are fail";
+//     }
+// }
