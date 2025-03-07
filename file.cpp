@@ -1182,3 +1182,32 @@
 //       cout << "You are fail";
 //     }
 // }
+
+
+// -------------------------- ACTIVITY NO : 04 --------------------------------------------
+// ------------------Program to add , subtract , multiply and divide of two numbers-------------------------------------
+
+
+// int main (){
+
+//     int num1 , num2 ;
+//     cout << "Enter first number: ";
+//     cin >> num1;
+
+//     cout << "Enter second number: ";
+//     cin >> num2;
+    
+//     int sum,subtract,multiply,divide;
+
+//     sum = num1 + num2;
+//     subtract = num1 - num2;
+//     multiply = num1 * num2;
+//     divide = num1 / num2;
+
+//     cout << "Sum of two number is : "<< sum <<"\n";
+//     cout << "Subtraction of two number is : "<< subtract << "\n";
+//     cout << "Multiplication of two number is : "<< multiply<< "\n";
+//     cout << "Division of two number is : "<< divide;
+    
+//     return 0;
+// }
