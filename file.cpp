@@ -1211,3 +1211,43 @@
     
 //     return 0;
 // }
+
+
+// --------------------------- ACTIVITY NO : 05 ----------------------------------
+// --------------------- Program to compute the total and average of six numbers ----------------------------------
+
+// int main (){
+
+//     int num1;
+//     cout << "Enter first number : ";
+//     cin >> num1;
+
+//     int num2;
+//     cout << "Enter second number : ";
+//     cin >> num2;
+
+//     int num3;
+//     cout << "Enter third number : ";
+//     cin >> num3;
+
+//     int num4;
+//     cout << "Enter fourth number : ";
+//     cin >> num4;
+
+//     int num5;
+//     cout << "Enter fifth number : ";
+//     cin >> num5;
+
+//     int num6;
+//     cout << "Enter sixth number : ";
+//     cin >> num6;
+
+//     float total;
+//     total = num1 + num2 + num3 + num4 + num5 + num6;
+//     cout << "Total of this numbers is : " << total << "\n";
+
+//     float average;
+//     average = total / 6;
+//     cout << "Average of a number is : " << average;
+// }
+
