@@ -1251,3 +1251,26 @@
 //     cout << "Average of a number is : " << average;
 // }
 
+
+// ----------------------- ACTIVITY NO : 06 ------------------------------------------------
+// ----------------Program to check whether a number is positive , negative or zero--------------------------
+
+
+
+// int main (){
+
+//     int Number;
+//     cout << "Input a Number: ";
+//     cin >> Number;
+//     if (Number >0 )
+//     {
+//         cout << "This is a positive number ";
+//     }
+//     else if (Number <0) {
+//         cout<<"This is a negative number ";
+//     }
+//     else{
+//         cout<<"Value is 0 ";
+//     }
+// }
+
