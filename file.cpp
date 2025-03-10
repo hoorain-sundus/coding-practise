@@ -1274,3 +1274,21 @@
 //     }
 // }
 
+//------------------------- ACTIVITY NO : 07 -------------------------------------------------
+//----------------- Program to find area of rectangle ----------------------------------------
+
+// int main(){
+
+//     int length;
+//     cout << "Enter  length of a rectangle : ";
+//     cin >> length;
+
+//     int width;
+//     cout << "Enter  width of a rectangle : ";
+//     cin >> width;
+
+//     int area;
+//     area = length * width;
+//     cout << "Area of a rectangle is : "<< area;
+
+// }
