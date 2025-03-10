@@ -1292,3 +1292,17 @@
 //     cout << "Area of a rectangle is : "<< area;
 
 // }
+
+
+//--------------------------- ACTIVITY NO : 08 --------------------------------------------------------
+//-------------- Program to convert length in centimeter to meter --------------------------------
+
+int main()
+{
+    float centimeter;
+    cout << "Enter the value of length in centimeter : ";
+    cin >> centimeter;
+
+    float meter = centimeter/100;
+    cout << centimeter << "cm is equal to "<< meter << "m" ;
+}
