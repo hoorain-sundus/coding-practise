@@ -1297,12 +1297,29 @@
 //--------------------------- ACTIVITY NO : 08 --------------------------------------------------------
 //-------------- Program to convert length in centimeter to meter --------------------------------
 
-int main()
-{
-    float centimeter;
-    cout << "Enter the value of length in centimeter : ";
-    cin >> centimeter;
+// int main()
+// {
+//     float centimeter;
+//     cout << "Enter the value of length in centimeter : ";
+//     cin >> centimeter;
 
-    float meter = centimeter/100;
-    cout << centimeter << "cm is equal to "<< meter << "m" ;
-}
+//     float meter = centimeter/100;
+//     cout << centimeter << "cm is equal to "<< meter << "m" ;
+// }
+
+
+// --------------------------- ACTIVITY NO : 09 --------------------------------------------------------
+// -------------- Program to convert temperature from fahrenheit into celsius --------------------------------
+
+
+
+// int main()
+// {
+//     float fahrenheit;
+//     cout << "Enter the value in Fahrenheit : ";
+//     cin >> fahrenheit;
+
+//     float  celsius = (fahrenheit - 32) * 5 / 9;
+
+//     cout << fahrenheit << " fahrenheit is equal to "<< celsius <<" celsius";
+// }
