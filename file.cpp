@@ -1338,3 +1338,20 @@
 
 //     cout << celsius << " celsius is equal to "<< fahrenheit <<" fahrenheit";
 // }
+
+
+// -------------------- ACTIVITY NO : 10 -----------------------------------------
+// ------------ Program that takes a input and print its multiple upto 10 -------------------------------
+
+// int main (){
+//     int num;
+//     cout << " Enter a number : ";
+//     cin >> num;
+
+//     for (int i = 1; i <= 10; i++)
+//     {
+//         cout << num << " x " << i << " = " << num*i << "\n"; 
+//     }
+    
+//     return 0;
+// }
