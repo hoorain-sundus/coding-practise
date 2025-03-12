@@ -1323,3 +1323,18 @@
 
 //     cout << fahrenheit << " fahrenheit is equal to "<< celsius <<" celsius";
 // }
+
+
+// --------------------------- ACTIVITY NO : 09 --------------------------------------------------------
+// -------------- Program to convert temperature from celsius into fahrenheit  --------------------------------
+
+
+// int main()
+// {
+//     float celsius;
+//     cout << "Enter the value in Celsius : ";
+//     cin >> celsius;
+//     float  fahrenheit = (celsius * 9/5 )  + 32;
+
+//     cout << celsius << " celsius is equal to "<< fahrenheit <<" fahrenheit";
+// }
