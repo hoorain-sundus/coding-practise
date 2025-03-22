@@ -1389,3 +1389,60 @@
 
 //     return 0;
 // }
+
+
+// ------------------------- ACTIVITY NO : 12 --------------------------------------
+//------------------- Program to read 10 numbers and sort them into ascending order ------------------------------
+
+
+// int main()
+// {
+
+//     int arr[6] = { 2, 3, 1, 4, 6, 5 };
+
+//     for (int i = 0; i < 6 -1; i++)
+//     {
+
+//         for (int j = 0; j < 6 -i -1; j++)
+//         {
+//             if (arr[j] > arr[j + 1])
+//             {
+//                 int temp = arr[j];
+//                 arr[j] = arr[j + 1];
+//                 arr[j + 1] = temp;
+//             }
+//         }
+
+//     }
+
+   
+//     for (int i = 0; i < 6; i++)
+//     {
+
+//         cout << arr[i];
+//     }
+
+//     return 0;
+// }
+
+
+
+
+//------------------- ACTIVITY NO : 13 -----------------------------------------------------------
+//----------------- Program to read integer n and print the factorial of n ------------------------------------
+
+// int main (){
+
+//     int n ;
+//     int factorial = 1;
+//     cout << "Enter an integer : ";
+//     cin >> n;
+
+//     for (int i = 1; i <= n ; i++)
+//     {
+//          factorial = factorial * i;
+//         }
+        
+//         cout << "Factorial of a number is : " << factorial;
+//     return 0;
+// }
